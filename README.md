@@ -13,7 +13,6 @@ module.exports = {
                 .setDescription('Song name or URL')
                 .setRequired(true)
         ),
-
     async execute(interaction) {
         const song = interaction.options.getString('song');
 
